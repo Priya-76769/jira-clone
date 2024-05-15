@@ -1,0 +1,92 @@
+.flex
+{
+    display:flex;
+    color:hsl(329, 100%, 50%);
+    flex-direction:row;
+    justify-content: center;  
+    transform:translate(50px,40px);
+}
+#p:hover
+{
+    transform: translateY(-20px);
+}
+#j:hover
+{
+    transform: translateY(-20px);
+}
+#n:hover
+{
+    transform:translateY(-20px)
+}
+#v:hover
+{
+    transform: translateY(-20px);
+}
+#s:hover
+{
+    transform: translateY(-20px);
+}
+#h:hover
+{
+    transform:translatey(-20px);
+}
+#p
+{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    text-align: center;
+    font-weight:100;
+    font-size:20px;
+    background-color: aqua;
+}
+#j
+{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+    background-color: #f0d7fa;
+}
+#n
+{
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+    text-align: center;
+    font-weight: 100;
+    font-size:20px;
+    background-color:hwb(223 77% 0%);
+}
+#v
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+    background-color: blanchedalmond;
+}
+#s
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+    background-color: aquamarine;
+}
+#h
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+    background-color: burlywood;
+}
