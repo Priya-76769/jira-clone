@@ -5,6 +5,7 @@
     flex-direction:row;
     justify-content: center;  
     transform:translate(50px,40px);
+    margin-top: 50px;
 }
 #p:hover
 {
@@ -90,3 +91,124 @@
     font-size: 20px;
     background-color: burlywood;
 }
+.flex #p .tooltip1
+{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+#j .tooltip2
+{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px 
+}
+#n .tooltip3
+{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px
+}
+#v .tooltip4
+{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px
+}
+#s .tooltip5
+{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px
+}  
+#h .tooltip6
+{
+   
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px 
+}
+#p:hover .tooltip1 {
+    visibility: visible;
+  } 
+  #j:hover .tooltip2 {
+    visibility: visible;
+  } 
+  #n:hover .tooltip3 {
+    visibility: visible;
+  } 
+  #v:hover .tooltip4 {
+    visibility: visible;
+  } 
+  #s:hover .tooltip5 {
+    visibility: visible;
+  } 
+  #h:hover .tooltip6 {
+    visibility: visible;
+  } 
+  #p .tooltip1::after
+   {
+ content: "";
+ position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+  
